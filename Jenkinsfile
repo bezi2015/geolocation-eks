@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'master', url: 'https://github.com/bezi2015/geolocation-eks.git'
+                git branch: 'main', url: 'https://github.com/bezi2015/geolocation-eks.git'
             }
         }
         stage('Code Build') {
